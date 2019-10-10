@@ -24,7 +24,8 @@ var connection = mysql.createConnection({
         start();
     })
   });
-  
+
+  // git test
   // function which prompts the user for what action they should take
   function start() {
     inquirer
