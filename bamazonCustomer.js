@@ -32,7 +32,7 @@ var connection = mysql.createConnection({
       .prompt({
         name: "id",
         type: "input",
-        message: "What is the id of item you would like to purchse?",
+        message: "What is the id of item you would like to purchase?",
       },
       {
         name: "amount",
